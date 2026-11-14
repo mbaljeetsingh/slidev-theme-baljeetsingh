@@ -23,7 +23,7 @@ colorSchema: dark
 
 `Stat`, `Chip`, `Callout`, `Step`, `Compare`, `Bars`. Available in every slide without imports.
 
-Frontmatter options and usage for each are in [CLAUDE.md](CLAUDE.md).
+Frontmatter options and usage for each are in [AGENTS.md](AGENTS.md).
 
 ## Develop
 
