@@ -1,0 +1,36 @@
+{
+  "name": "slidev-theme-baljeetsingh",
+  "version": "0.1.0",
+  "type": "module",
+  "keywords": [
+    "slidev-theme",
+    "slidev"
+  ],
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "slidev showcase.md --open",
+    "build": "slidev build showcase.md",
+    "export": "slidev export showcase.md --per-slide"
+  },
+  "dependencies": {
+    "@slidev/client": "53.1.0",
+    "@slidev/types": "53.1.0"
+  },
+  "devDependencies": {
+    "@slidev/cli": "53.1.0"
+  },
+  "slidev": {
+    "colorSchema": "both",
+    "defaults": {
+      "fonts": {
+        "sans": "Public Sans",
+        "serif": "Instrument Serif",
+        "mono": "JetBrains Mono",
+        "weights": "400,500,600,700",
+        "italic": true
+      }
+    }
+  }
+}
